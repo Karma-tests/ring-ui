@@ -19,7 +19,8 @@
       [
         "@jetbrains/jetbrains",
         {
-          "useBuiltIns": "usage"
+          "useBuiltIns": "usage",
+          "corejs": "3"
         }
       ]
     ]
@@ -29,6 +30,7 @@
     "@jetbrains/babel-preset-jetbrains": "^2.1.5",
     "babel-loader": "^8.1.0",
     "copy-webpack-plugin": "^6.0.3",
+    "core-js": "^3.6.5",
     "css-loader": "^4.2.2",
     "json-loader": "^0.5.7",
     "html-loader": "^0.5.5",
